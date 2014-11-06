@@ -681,7 +681,7 @@ function newv($class_name, array $argv) {
  * @param    array Array to retrieve the first element from.
  * @return   wild  The first value of the array.
  */
-function head(array $arr) {
+function _head(array $arr) {
   return reset($arr);
 }
 
@@ -693,7 +693,7 @@ function head(array $arr) {
  * @param    array Array to retrieve the last element from.
  * @return   wild  The last value of the array.
  */
-function last(array $arr) {
+function _last(array $arr) {
   return end($arr);
 }
 
